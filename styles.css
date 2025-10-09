@@ -1,0 +1,107 @@
+/*
+  Simple CSS Stylesheet (styles.css)
+  for an Employee Details page
+*/
+
+/* 1. Basic Reset and Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* 2. Page Container */
+.container {
+    width: 80%; /* Takes up 80% of the screen width */
+    max-width: 1000px; /* Does not get too wide on large screens */
+    margin: 40px auto; /* Centers the container horizontally and adds top/bottom margin */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lift effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* 3. Heading Style */
+h1 {
+    text-align: center;
+    color: #0056b3; /* A professional blue color */
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ddd; /* Separator line */
+    padding-bottom: 10px;
+}
+
+/* 4. Table Styles for Employee Details */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes double borders */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light separator between rows */
+}
+
+/* Table Header Styles */
+thead th {
+    background-color: #007bff; /* Primary blue color for header row */
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+}
+
+/* Optional: Stripe effect for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #e9e9e9;
+}
+
+
+/* Buttons */
+
+.button-wrapper {
+    /* Apply margin to the wrapper to create space around the button */
+    margin: 10px; /* Applies 10px margin on all sides */
+    /* Or specify individual sides: */
+    /* margin-top: 10px; */
+    /* margin-right: 15px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 15px; */
+  
+    /* Optional: Add a border to visually represent the "box" */
+    
+    padding: 5px; /* Add some padding inside the box */
+  
+    /* Optional: Adjust display property for layout control */
+    display: inline-block; /* Allows wrappers to sit side-by-side */
+  }
+
+.main-button {
+  background-color: #4bb2e2; /* Green background */
+  color: white; /* White text */
+  padding: 15px 15px; /* Padding around the text */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Enables flexbox for the container */
+  justify-content: center;  /* Horizontally centers the items within the flex container */
+  font-size: 16px; /* Font size */
+  margin: auto; /* Margin around the button */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  border-radius: 8px; /* Rounded corners */
+  border: none; /* Remove default border */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.main-button:hover {
+  background-color: #2388af; /* Darker green on hover */
+}
+
