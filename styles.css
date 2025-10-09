@@ -2,7 +2,10 @@
   Simple CSS Stylesheet (styles.css)
   for an Employee Details page
 */
+---
+---
 
+@import "{{ site.theme }}";
 /* 1. Basic Reset and Body Styles */
 body {
     font-family: Arial, sans-serif;
