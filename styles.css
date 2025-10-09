@@ -5,7 +5,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import 'jekyll-theme-cayman';
+
 /* 1. Basic Reset and Body Styles */
 body {
     font-family: Arial, sans-serif;
